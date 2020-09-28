@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="keyboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,500;0,600;0,700;1,300;1,500&display=swap" rel="stylesheet">
+    <title>Keyboard</title>
+</head>
+<body>
+    <div class="container px-5">
+        <div class="mt-5 text-center">            
+            <input type="text" class="heading mb-4 pb-1" id='screen-text'></input>
+        </div>
+        <div class="d-flex flex-column text-center keyboard">
+
+            <!-- top row 1 to 0 -->
+            <div class="d-flex justify-content-center mb-4" id="top-row">
+            </div>
+
+            <!-- 2nd row q - p -->
+            <div class="d-flex justify-content-center mb-4" id="row2">
+            </div>
+
+            <!-- 3rd row a - l -->
+            <div class="d-flex justify-content-center mb-4" id="row3">
+            </div>
+
+            <!-- 4th row z- m -->
+            <div class="d-flex justify-content-center mb-4" id="row4">
+            </div>
+            <div class="d-flex justify-content-center mb-4">
+                <div class="space-bar" data-normal='SPACE', data-shift='SPACE' id="sp-bar-obj"></div>
+            </div>
+        </div>
+        <div class="buttons d-flex justify-content-center" id="btn-grp">
+        </div>
+    </div>
+    <script src="keyboard.js"></script>
+</body>
+</html>
